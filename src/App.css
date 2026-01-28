@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 50%, #ce93d8 100%);
+  min-height: 100vh;
+}
+
+/* Hover Card Animation */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(124, 77, 255, 0.3);
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c4dff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a2c9f;
+}
+
+/* Page container */
+.page-container {
+  min-height: calc(100vh - 80px);
+  padding: 20px 0;
+}
+
+/* Mood emoji styles */
+.mood-emoji {
+  font-size: 2rem;
+  margin: 0 5px;
+  transition: transform 0.2s;
+}
+
+.mood-emoji:hover {
+  transform: scale(1.2);
+}

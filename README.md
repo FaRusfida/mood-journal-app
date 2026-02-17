@@ -2,6 +2,12 @@
 
 A beautiful, calming **React Single Page Application (SPA)** designed to help users track daily moods, reflect through wellness prompts, and build better mental health habits.
 
+## 🌍 Live Demo
+
+🔗 https://mood-journal-app-dccba.web.app
+
+
+
 ![Mood Journal Hero](/screenshots/image.png)
 
 ## ✨ Key Features
